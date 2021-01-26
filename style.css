@@ -78,13 +78,20 @@ body{
 
 @media screen and (max-width: 767px){
     .container{
-        width: 90%;
+        width: 80%;
     }
     .box-social{
         height: 70px;
     }
     .box-social img {
         width: 70px;
+    }
+    .icon{
+        margin: 0;
+    }
+    .text{
+        margin-left: 20%;
+        margin-right: auto;
     }
     .avatar img{
         width: 160px;
@@ -96,4 +103,7 @@ body{
     }
 }
 
+.border img{
+    border-radius: 20px;
+}
 
